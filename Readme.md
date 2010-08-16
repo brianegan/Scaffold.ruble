@@ -6,7 +6,8 @@ time in Textmate and Aptana while helping you learn all that Scaffold has to off
 ## Download
 
 * Click "Download Source" button at the top-right of this page, or
-* Click the "Downloads" tab and choose the most recent file.
+* Click the "Downloads" tab and choose the most recent file, or 
+* Clone the repo into your "Aptana Rubles" folder like a pro.
 
 ## Installation
 
@@ -14,6 +15,9 @@ time in Textmate and Aptana while helping you learn all that Scaffold has to off
 ** ex Windows: C:\Users\Brian\My Documents 
 ** ex Mac: /Users/Brian/Documents
 * Navigate into, or create the directory "Aptana Rubles"
-* Extract the Downloaded Files into this Folder
-* Restart Aptana
+* Extract the zip into the "Aptana Rubles" folder
+* If necessary, rename the extracted folder to "Scaffold.ruble" 
+* If Aptana is open:
+** Click "Commands" > "Bundle Development" > "Update User Bundles"
+
 
