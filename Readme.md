@@ -11,13 +11,13 @@ time in Textmate and Aptana while helping you learn all that Scaffold has to off
 
 ## Installation
 
-* Navigate to your "Documents" folder
-  * ex Windows: C:\Users\Brian\My Documents 
-  * ex Mac: /Users/Brian/Documents
-* Navigate into, or create the directory "Aptana Rubles"
+* Navigate to your "Aptana Rubles" folder
+  * ex Windows: C:\Users\Brian\Aptana Rubles
+  * ex Mac: /Users/Brian/Documents/Aptana Rubles
 * Extract the zip into the "Aptana Rubles" folder
-* If necessary, rename the extracted folder to "Scaffold.ruble" 
+* If necessary, rename the extracted folder to "Scaffold.ruble"
 * If Aptana is open:
   * Click "Commands" > "Bundle Development" > "Update User Bundles"
+* The bundle should now show up under the "Commands" menu in Aptana!
 
 
