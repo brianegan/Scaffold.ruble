@@ -1,0 +1,121 @@
+require 'ruble'
+
+bundle 'Scaffold' do |bundle|
+  bundle.author = 'Brian Egan'
+  bundle.contact_email_rot_13 = 'brian@brianegan.com'
+  bundle.display_name = 'Scaffold'
+  bundle.copyright = "© Copyright 2010 Brian Egan. Distributed under the MIT license."
+  bundle.repository = 'http://github.com/brianegan/Scaffold.ruble.git'
+  bundle.description =  <<END 
+  Scaffold is a CSS preprocessor, like LESS or SASS. However, it includes
+  a number of helpful functions, such as grids, CSS3 properties, and more.
+  This bundle attempts to consolidate all of those extra goodies into one
+  Aptana Ruble!  
+END
+
+  bundle.menu 'Scaffold' do |main_menu|
+    main_menu.menu 'CSS3' do |submenu|
+      submenu.command 'Border Radius'
+      submenu.command 'Border Radius Top'
+      submenu.command 'Border Radius Bottom'
+      submenu.command 'Border Radius Left'
+      submenu.command 'Border Radius Right'
+      submenu.command 'Border Radius Top Left'
+      submenu.command 'Border Radius Bottom Left'
+      submenu.command 'Border Radius Top Right'
+      submenu.command 'Border Radius Bottom Right'
+      submenu.command 'Text Overflow'
+      submenu.command 'Rotate'
+      submenu.command 'Opacity'
+      submenu.command 'Column Gap'
+      submenu.command 'Column Rule'
+      submenu.command 'Column Count'
+      submenu.command 'Column Width'
+      submenu.command 'Inline Block'
+      submenu.command 'Box Shadow'
+      submenu.command 'Border Box'
+      submenu.command 'Background Size'
+    end
+    main_menu.menu 'Layout' do |submenu|
+      submenu.command 'Grid'
+      submenu.command 'Columns'
+      submenu.command 'Columns-base'
+      submenu.command 'First Column Margin'
+      submenu.command 'Last Column Margin'
+      submenu.command 'Prepend'
+      submenu.command 'Append'
+      submenu.command 'Push'
+      submenu.command 'Pull'
+      submenu.command 'Quick Clear'
+      submenu.command 'Full ClearFix'
+      submenu.command 'Float + IE Margin Fix'
+      submenu.command 'Container'
+      submenu.command 'Container-alt (Includes Gutter width)'
+      submenu.command 'Baseline-Up'
+      submenu.command 'Baseline-Down'
+      submenu.command 'Baseline'
+      submenu.command 'IE Has Layout'
+      submenu.command 'Min Height'
+      submenu.command 'Min Width'
+    end
+    main_menu.menu 'Typogrophy' do |submenu|
+      submenu.command 'Safari Text Shadow Fix'
+      submenu.command 'Image Replacement'
+      submenu.command 'Warnock Font Stack'
+      submenu.command 'Trebuchet Font Stack'
+      submenu.command 'Tahoma Font Stack'
+      submenu.command 'Palatino Font Stack'
+      submenu.command 'Impact Font Stack'
+      submenu.command 'Gill Sans Font Stack'
+      submenu.command 'Georgia Font Stack'
+      submenu.command 'Lucida Font Stack'
+      submenu.command 'Verdana Font Stack'
+      submenu.command 'Geneva Font Stack'
+      submenu.command 'Garamond Font Stack'
+      submenu.command 'Futura Font Stack'
+      submenu.command 'Franklin Gothic Font Stack'
+      submenu.command 'Monospace Font Stack'
+      submenu.command 'Century Gothic Font Stack'
+      submenu.command 'Cambria Font Stack'
+      submenu.command 'Baskerville Font Stack'
+      submenu.command 'Myriad Font Stack'
+      submenu.command 'Helvetica Light Font Stack'
+      submenu.command 'Helvetica Font Stack'
+      submenu.command 'Times Font Stack'
+      submenu.command 'Nice Ampersand'
+      submenu.command 'Drop Cap'
+      submenu.command 'Link Info'
+      submenu.command 'All Caps'
+      submenu.command 'Regular Type'
+      submenu.command 'Small Type'
+    end
+    main_menu.menu 'Utilities' do |submenu|
+      submenu.command 'Reset'
+      submenu.command 'Reset Box'
+      submenu.command 'Reset All'
+      submenu.command 'Global Reset'
+      submenu.command 'HTML5 Reset'
+      submenu.command 'Accessible Element Hiding'
+      submenu.command 'Sharpen Blurry Flat Color Image'
+      submenu.command 'Sharpen Blurry Photo Image copy'
+      submenu.command 'Low Quality Images (Faster Rendering)'
+      submenu.command 'Horizontal List'
+      submenu.command 'No Bullet (current item)'
+      submenu.command 'No Bullets'
+      submenu.command 'Position'
+      submenu.command 'Absolute'
+      submenu.command 'Relative'
+      submenu.command 'Move'
+      submenu.command 'Move Up'
+      submenu.command 'Move Right'
+      submenu.command 'Move Down'
+      submenu.command 'Move Left'
+      submenu.command 'Size'
+    end
+    main_menu.menu 'Widgets' do |submenu|
+      submenu.command 'Buttons'
+      submenu.command 'Tabs'
+      submenu.command 'CSS Lightbox'
+    end
+  end
+end
