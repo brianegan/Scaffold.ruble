@@ -16,8 +16,4 @@ time in Textmate and Aptana while helping you learn all that Scaffold has to off
   * ex Mac: /Users/Brian/Documents/Aptana Rubles
 * Extract the zip into the "Aptana Rubles" folder
 * If necessary, rename the extracted folder to "Scaffold.ruble"
-* If Aptana is open:
-  * Click "Commands" > "Bundle Development" > "Update User Bundles"
-* The bundle should now show up under the "Commands" menu in Aptana!
-
-
+* If Aptana is open, you'll need to restart it. Doing "Update User Bundle" alone will not activate the new snippets at this time.
